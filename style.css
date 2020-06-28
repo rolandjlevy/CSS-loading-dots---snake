@@ -11,12 +11,12 @@ body {
   display: flex;
 }
 
-.circle {
+.loading > .circle {
   width: 10px;
   height: 10px;
   border-radius: 50%;
   margin: 1px;
-  animation: jump 1s ease-in-out infinite;
+  animation: jump 900ms ease-in-out infinite;
 }
 
 .circle:nth-of-type(1) {
@@ -56,11 +56,11 @@ body {
 
 @keyframes jump {
   0% {
-    transform: translateY(0) translateX(0) scale(1.2);
+    transform: translateY(0) translateX(0) scale(1);
     opacity: 1;
   }
   50% {
-    transform: translateY(-10px) translateX(5px) scale(0.9);
+    transform: translateY(-10px) translateX(5px) scale(0.8);
     opacity: 0.3;
   }
 }
