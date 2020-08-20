@@ -21,37 +21,37 @@ body {
 
 .circle:nth-of-type(1) {
   animation-delay: 0.1s;
-  background-color: hsl(180, 100%, 26%);
+  background-color: hsl(180, 100%, 30%);
 }
 
 .circle:nth-of-type(2) {
   animation-delay: 0.2s;
-  background-color: hsl(180, 100%, 39%);
+  background-color: hsl(180, 100%, 40%);
 }
 
 .circle:nth-of-type(3) {
   animation-delay: 0.3s;
-  background-color: hsl(180, 100%, 52%);
+  background-color: hsl(180, 100%, 50%);
 }
 
 .circle:nth-of-type(4) {
   animation-delay: 0.4s;
-  background-color: hsl(180, 100%, 65%);
+  background-color: hsl(180, 100%, 60%);
 }
 
 .circle:nth-of-type(5) {
   animation-delay: 0.5s;
-  background-color: hsl(180, 100%, 78%);
+  background-color: hsl(180, 100%, 70%);
 }
 
 .circle:nth-of-type(6) {
   animation-delay: 0.6s;
-  background-color: hsl(180, 100%, 91%);
+  background-color: hsl(180, 100%, 80%);
 }
 
 .circle:nth-of-type(7) {
   animation-delay: 0.7s;
-  background-color: hsl(180, 100%, 100%);
+  background-color: hsl(180, 100%, 90%);
 }
 
 @keyframes jump {
